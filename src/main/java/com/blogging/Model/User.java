@@ -11,6 +11,7 @@ import java.util.*;
 
 @Entity
 @Data
+@Table(name = "users")
 @NoArgsConstructor
 public class User {
 
